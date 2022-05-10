@@ -1,0 +1,49 @@
+.btnMenu{
+    border: none;
+    /* background-color: none; */
+    margin-top: 20px;
+}
+.btnList{
+    border: none;
+    /* background-color: white; */
+    margin-top: 10px;
+}
+.bottomRow{
+    position: absolute;
+    bottom: 0%;
+    
+}
+.leftDiv{
+    background-color: #f3f2f1 !important;
+    height: auto;
+}
+.bottomList{
+    border: none;
+}
+.newList{
+    margin-top: 30px;
+    color: #0078d7;
+}
+.firstBtn{
+    margin-top: 20px;
+}
+.menuList{
+    background-color: #f3f2f1;
+}
+.hideDisplay{
+    display: none;
+    
+}
+.colAuto{
+    width: auto;
+    height: auto;
+}
+@media only screen and (max-width: 685px) {
+    .leftDiv {
+      display: none;
+    }
+    .hideDisplay{
+        display:flex;
+    }
+    
+  }

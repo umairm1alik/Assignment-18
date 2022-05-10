@@ -1,0 +1,74 @@
+.searchBar{
+    height: 32px;
+    background-color: #c3ddf7;
+    border: none;
+    border-radius: 2px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    outline: 0;
+        
+}
+
+.navBar{
+    background-color: #0078d7;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#searchIcon{
+    margin-top: 8px;
+    position: absolute;
+    /* padding: 10px; */
+    color: #0078d7;
+    min-width: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.styleToDo{
+    color: white;
+    width: 100%;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 5px;
+}
+#icon1{
+    color: white;
+    cursor: pointer;
+}
+#icon2{
+    color: white;
+    cursor: pointer;
+}
+#icon3{
+    color: white;
+    cursor: pointer;
+    margin-left: 5px;
+}
+#icon4{
+    color: white;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.styleToDo:hover{
+    color: white;
+}
+#logOut{
+    font-weight: bold;
+    color: white;
+    border: none;
+    background-color: #0078d7;
+}
+
+@media only screen and (max-width: 520px) {
+    .styleToDo {
+      font-size: 10px;
+    }
+  }
+  @media only screen and (max-width: 380px) {
+    .styleToDo {
+      font-size: 8px;
+    }
+    .searchBar{
+        width: 30%;
+    }
+  }

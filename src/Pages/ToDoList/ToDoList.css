@@ -1,0 +1,94 @@
+.date{
+    font-size: 15px;
+    display: block;
+    color: #a59c92;
+}
+#bellIcon{
+    margin: 0 15px;
+}
+.inputDiv{
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #f3f2f1;
+    border-radius: 5px;
+}
+.inputFieldList{
+    border-top: none;
+    border-left:none ;
+    border-right: none;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+    border-color: #0078d7;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+.addTaskBtn{
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    float: right;
+}
+.tableStyle{
+    list-style: none;
+    margin-top: 10px;
+}
+.delBtnList{
+    
+    border: none;
+    background-color: white;
+    float: right;
+    
+}
+#delIcon:hover{
+    color: red;
+}
+.checkIcon{
+    display: inline;
+    float: left;
+    margin-top: 7px;
+    margin-right: 7px;
+    
+}
+.fvrtIcon:checked{
+    color: rgb(228, 228, 26);
+}
+
+@media only screen and (max-width: 685px) {
+    .toDoSection {
+      width: 100%;
+    }
+  }
+  .updateBtn{
+      border: none;
+      background-color: white;
+      color: #0078d7;
+      cursor: pointer;
+      float: right;
+  }
+  .iconListItem{
+      display: inline-block;
+      float: right;
+  }
+  .checkBtn{
+      border: none;
+      background-color: white;
+  }
+  .checkBtn:hover{
+      /* background-color: green; */
+      color: #0078d7;
+  }
+  .lineThrough{
+      text-decoration: line-through;
+  }
+  #restoreBtn{
+      color: #0078d7;
+      border: none;
+      background-color: white;
+      cursor: pointer;
+  }
+  #restoreBtn:hover{
+      color: black;
+  }
